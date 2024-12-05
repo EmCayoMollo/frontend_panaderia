@@ -57,7 +57,7 @@ defineExpose({ obtenerLista })
           <td>{{ pedido.producto.nombre }}</td>
           <td>{{ pedido.empleado.nombre }}</td>
           <td>{{ pedido.fecha }}</td>
-          <td>{{ pedido.total }}</td>
+          <td>{{ pedido.total+'Bs' }}</td>
           <td>
             <Button
               icon="pi pi-pencil"
