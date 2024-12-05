@@ -53,7 +53,7 @@ defineExpose({ obtenerLista })
         <tr v-for="(producto, index) in productos" :key="producto.id">
           <td>{{ index + 1 }}</td>
           <td>{{ producto.nombre }}</td>
-          <td>{{ producto.precio }}</td>
+          <td>{{ producto.precio+'Bs' }}</td>
           <td>{{ producto.tipo }}</td>
           <td>{{ producto.cantidadDisponible }}</td>
           <td>
